@@ -1,5 +1,9 @@
 server:
   port: 8083
+  servlet:
+    session:
+      cookie:
+        name: wms  
 
 security:
   oauth2:
@@ -10,9 +14,3 @@ security:
       access-token-uri: http://localhost:8081/oauth/token
     resource:
       token-info-uri: http://localhost:8081/oauth/check_token
-
-server:
-  servlet:
-    session:
-      cookie:
-        name: wms  
