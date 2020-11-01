@@ -14,9 +14,4 @@ spring:
     properties:
       hibernat:
         show_sql: true
-        format_Sql: true
-
-security:
-  oauth2:
-    sso:
-      login-path: /mylogin        
+        format_Sql: true        
