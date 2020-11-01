@@ -15,3 +15,8 @@ spring:
       hibernat:
         show_sql: true
         format_Sql: true
+
+security:
+  oauth2:
+    sso:
+      login-path: /mylogin        
